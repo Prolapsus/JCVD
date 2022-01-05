@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/logoJCVD.ico"/> <!-- ajout d'une icone JCVD pour habiller l'onglet -->
     <title>Premier Exercice JCVD</title>
     <style>
         table{
@@ -13,109 +14,120 @@
             border: 1px solid black;
         }
     </style>
-
 </head>
+
 <body>
 
     <h1>Mon premier template HTML</h1>
-
+                        <!-- Menu de navigation dans la page avec ancres -->
     <ul>
-        <li>JCVD <a href="index.html#JCVD">ICI</a></li>
-        <li>Patrick Sébatien <a href="index.html#Patrick">ICI</a></li>
-        <li>Classement Coupe du Monde <a href="index.html#resultat">ICI</a></li>
-        <li>Tableau <a href="index.html#tableau">ICI</a></li>
+        <li>JCVD <a href="#JCVD">ICI</a></li>
+        <li>Patrick Sébatien <a href="#Patrick">ICI</a></li>
+        <li>Classement Coupe du Monde <a href="#Resultat">ICI</a></li>
+        <li>Tableau <a href="#Tableau">ICI</a></li>
     </ul>
+                        <!-- section consacrée à JCVD -->
+    <section>
+        <h2 id="JCVD">JCVD</h2>
 
-    <h2 id="JCVD">JCVD</h2>
+        <img src="./img/VanDamme1.jpg" alt="Photo de Jean-Claude Van Damme" title="Photo de Jean-Claude Van Damme">
 
-    <img src="./img/VanDamme1_20200602120311_20200813022621.jpg" alt="Photo de Jean-Claude Vandame">
+        <p>
+            Tu comprends, là on voit qu'on a beaucoup à travailler sur nous-mêmes car là,<br><br>
+            j'ai un chien en ce moment à côté de moi et je le caresse,<br><br>
+            et cela même si les gens ne le savent pas !<br><br>
+            Il y a un an, je t'aurais parlé de mes muscles.
+        </p>
+        <p>
+            Même si on se ment, tu vois au passage qu'il n'y a rien de concret<br><br>
+            car il y a de bonnes règles, de bonnes rules et c'est très,<br><br>
+            très beau d'avoir son propre moi-même ! Mais ça, c'est uniquement lié au spirit.
+        </p>
 
-    <p>
-        Tu comprends, là on voit qu'on a beaucoup à travailler sur nous-mêmes car là,<br>
-        j'ai un chien en ce moment à côté de moi et je le caresse,<br>
-        et cela même si les gens ne le savent pas !<br>
-        Il y a un an, je t'aurais parlé de mes muscles.
-    </p>
-    <p>
-        Même si on se ment, tu vois au passage qu'il n'y a rien de concret<br>
-        car il y a de bonnes règles, de bonnes rules et c'est très,<br>
-        très beau d'avoir son propre moi-même ! Mais ça, c'est uniquement lié au spirit.
-    </p>
+        <a href="#">Retour en haut</a><br><br>
+    </section>
+                        <!-- section consacrée à Patrick Sébastien -->
+    <section>
+        <h2 id="Patrick">Patrick Sébastien</h2>
+        
+        <p>
+            Pareil, pareil, pareil<br><br>
+            Pareil, pareil, pareil<br><br>
+            Ha ! Qu'est-ce qu'on est serré, au fond de cette boite,<br><br>
+            Ha ! Qu'est-ce qu'on est serré, au fond de cette boite,<br><br>
+            Ca nous fait du vent dans les couettes<br><br>
+            Comm' des petites girouettes<br><br>
+            <br><br>
+            {refrain}<br><br>
+            tous mes voeux de bonheur profonds et sincères<br><br>
+            Elle a dû faire toutes les guerres<br><br>
+            qui c'est qu'on oublira pas....Denise<br><br>
+            Mêm'le chef qui est à l'Elysée<br><br>
+            <br><br>
+            Les fleurs et les chenilles<br><br>
+            Les fleurs et les chenilles<br><br>
+            Et voilà qu'aujourd'hui<br><br>
+            Même si tu as peur de sa nuit<br><br>
+            La la la, la la la, la la la, la la la...<br><br>
+            La la la, la la la, la la la, la la la...<br><br>
+        </p>
+        
+        <a href="#">Retour en haut</a><br><br>
+    </section>
+                        <!-- section consacrée à la coupe du monde 2018 -->
+    <section>
+        <article>
+            <h2 id="Resultat">Résultat coupe du monde 2018</h2><br>
 
-    <a href="#">Retour en haut</a><br><br>
+            <img src="./img/coupe.png" alt="logo coupe du monde 2018" title="Logo de la coupe du monde 2018">
 
-    <h2 id="Patrick">Patrick Sébastien</h2>
-    
-    <p>
-        Pareil, pareil, pareil<br>
-        Pareil, pareil, pareil<br>
-        Ha ! Qu'est-ce qu'on est serré, au fond de cette boite,<br>
-        Ha ! Qu'est-ce qu'on est serré, au fond de cette boite,<br>
-        Ca nous fait du vent dans les couettes<br>
-        Comm' des petites girouettes<br>
-        <br>
-        {refrain}<br>
-        tous mes voeux de bonheur profonds et sincères<br>
-        Elle a dû faire toutes les guerres<br>
-        qui c'est qu'on oublira pas....Denise<br>
-        Mêm'le chef qui est à l'Elysée<br>
-        <br>
-        Les fleurs et les chenilles<br>
-        Les fleurs et les chenilles<br>
-        Et voilà qu'aujourd'hui<br>
-        Même si tu as peur de sa nuit<br>
-        La la la, la la la, la la la, la la la...<br>
-        La la la, la la la, la la la, la la la...<br>
-    </p>
-    
-    <a href="#">Retour en haut</a><br><br>
+            <br><br><br>
 
-    <h2 id="resultat">Résultat coupe du monde 2018</h2><br>
+            <ol>
+                <li>France</li>
+                <li>Croatie</li>
+                <li>Belgique</li>
+                <li>Angleterre</li>
+            </ol>
 
-    <img src="./img/images.png" alt="logo coupe du monde 2018">
+            <span>Lien vers le site de la Fifa : <a target=blank href="https://www.fifa.com/fr">Fifa</a></span><br>
+            <a href="#">Retour en haut</a><br><br>
+        </article>
 
-    <ol>
-        <li>France</li>
-        <li>Croatie</li>
-        <li>Belgique</li>
-        <li>Angleterre</li>
-    </ol>
+        <article>
+            <h2 id="Tableau">Tableau</h2>
 
-    <span>Lien vers le site de la Fifa : <a href="https://www.fifa.com/fr">Fifa</a></span><br>
-    <a href="#">Retour en haut</a><br><br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Age</th>
+                        <th>Pays</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Griezmann</td>
+                        <td>27</td>
+                        <td><img src="./img/drapeauFrançais.png" alt="Drapeau Français" title="Drapeau Français"></td>
+                    </tr>
+                    <tr>
+                        <td>Lukaku</td>
+                        <td>32</td>
+                        <td><img src="./img/drapeauBelgique.png" alt="Drapeau Belge" title="Drapeau Belge"></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Nom</td>
+                        <td>Age</td>
+                        <td>Pays</td>
+                    </tr>
+                </tfoot>
+            </table>
 
-    <h2 id="tableau">Tableau</h2>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Nom</th>
-                <th>Age</th>
-                <th>Pays</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Griezmann</td>
-                <td>27</td>
-                <td><img src="./img/drapeauFrançais.png" alt="Drapeau Français"></td>
-            </tr>
-            <tr>
-                <td>Lukaku</td>
-                <td>32</td>
-                <td><img src="./img/drapeauBelgique.png" alt="Drapeau Belge"></td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td>Nom</td>
-                <td>Age</td>
-                <td>Pays</td>
-            </tr>
-        </tfoot>
-    </table>
-
-    <a href="#">Retour en haut</a><br>
-
+            <a href="#">Retour en haut</a><br>
+        </article>
+    </section>
 </body>
 </html>
