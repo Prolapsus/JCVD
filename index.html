@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="./img/logoJCVD.ico"/> <!-- ajout d'une icone JCVD pour habiller l'onglet -->
-    <title>Premier Exercice JCVD</title>
+    <!-- <link rel="stylesheet" href="./css/JCVD.css"> -->
     <style>
-        table{
+        table {
             border-collapse: collapse;
         }
-        td, th{
+        td, th {
             border: 1px solid black;
+            padding : 10px;
         }
     </style>
+    <title>Premier Exercice JCVD</title>
 </head>
 
 <body>
-
     <h1>Mon premier template HTML</h1>
                         <!-- Menu de navigation dans la page avec ancres -->
     <ul>
@@ -29,9 +30,7 @@
                         <!-- section consacrée à JCVD -->
     <section>
         <h2 id="JCVD">JCVD</h2>
-
         <img src="./img/VanDamme1.jpg" alt="Photo de Jean-Claude Van Damme" title="Photo de Jean-Claude Van Damme">
-
         <p>
             Tu comprends, là on voit qu'on a beaucoup à travailler sur nous-mêmes car là,<br><br>
             j'ai un chien en ce moment à côté de moi et je le caresse,<br><br>
@@ -43,13 +42,11 @@
             car il y a de bonnes règles, de bonnes rules et c'est très,<br><br>
             très beau d'avoir son propre moi-même ! Mais ça, c'est uniquement lié au spirit.
         </p>
-
         <a href="#">Retour en haut</a><br><br>
     </section>
                         <!-- section consacrée à Patrick Sébastien -->
     <section>
         <h2 id="Patrick">Patrick Sébastien</h2>
-        
         <p>
             Pareil, pareil, pareil<br><br>
             Pareil, pareil, pareil<br><br>
@@ -71,63 +68,54 @@
             La la la, la la la, la la la, la la la...<br><br>
             La la la, la la la, la la la, la la la...<br><br>
         </p>
-        
         <a href="#">Retour en haut</a><br><br>
     </section>
                         <!-- section consacrée à la coupe du monde 2018 -->
     <section>
-        <article>
-            <h2 id="Resultat">Résultat coupe du monde 2018</h2><br>
-
-            <img src="./img/coupe.png" alt="logo coupe du monde 2018" title="Logo de la coupe du monde 2018">
-
-            <br><br><br>
-
-            <ol>
-                <li>France</li>
-                <li>Croatie</li>
-                <li>Belgique</li>
-                <li>Angleterre</li>
-            </ol>
-
-            <span>Lien vers le site de la Fifa : <a target=blank href="https://www.fifa.com/fr">Fifa</a></span><br>
-            <a href="#">Retour en haut</a><br><br>
-        </article>
-
-        <article>
-            <h2 id="Tableau">Tableau</h2>
-
-            <table>
-                <thead>
-                    <tr>
-                        <th>Nom</th>
-                        <th>Age</th>
-                        <th>Pays</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Griezmann</td>
-                        <td>27</td>
-                        <td><img src="./img/drapeauFrançais.png" alt="Drapeau Français" title="Drapeau Français"></td>
-                    </tr>
-                    <tr>
-                        <td>Lukaku</td>
-                        <td>32</td>
-                        <td><img src="./img/drapeauBelgique.png" alt="Drapeau Belge" title="Drapeau Belge"></td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td>Nom</td>
-                        <td>Age</td>
-                        <td>Pays</td>
-                    </tr>
-                </tfoot>
-            </table>
-
-            <a href="#">Retour en haut</a><br>
-        </article>
+        <h2 id="Resultat">Résultat coupe du monde 2018</h2><br>
+        <img src="./img/coupe.png" alt="logo coupe du monde 2018" title="Logo de la coupe du monde 2018">
+        <br><br><br>
+        <ol>
+            <li>France</li>
+            <li>Croatie</li>
+            <li>Belgique</li>
+            <li>Angleterre</li>
+        </ol>
+        <span>Lien vers le site de la Fifa : <a target=blank href="https://www.fifa.com/fr">Fifa</a></span><br>
+        <a href="#">Retour en haut</a><br><br>
+    </section>
+                        <!-- section consacrée à la manipulation des tableaux -->
+    <section>
+        <h2 id="Tableau">Tableau</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Age</th>
+                    <th>Pays</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Griezmann</td>
+                    <td>27</td>
+                    <td><img src="./img/drapeauFrançais.png" alt="Drapeau Français" title="Drapeau Français"></td>
+                </tr>
+                <tr>
+                    <td>Lukaku</td>
+                    <td>32</td>
+                    <td><img src="./img/drapeauBelgique.png" alt="Drapeau Belge" title="Drapeau Belge"></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Nom</td>
+                    <td>Age</td>
+                    <td>Pays</td>
+                </tr>
+            </tfoot>
+        </table>
+        <a href="#">Retour en haut</a><br>
     </section>
 </body>
 </html>
